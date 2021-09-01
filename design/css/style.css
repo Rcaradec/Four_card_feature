@@ -1,0 +1,131 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  height: 30vh;
+}
+
+main {
+  height: 70vh;
+}
+.heading_box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+}
+
+.heading_box h1 {
+  font-size: 2em;
+  padding: 0.5em;
+  font-weight: 100;
+  padding-top: 3em;
+}
+
+.heading_box h2 {
+  font-size: 2em;
+  color: coral;
+  text-shadow: 0 0 30px #000000;
+}
+
+.heading_box p {
+  padding: 0.9em;
+  margin-top: 0.8em;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 1em;
+  color: rgb(158, 158, 158);
+}
+
+/* Main Section */
+
+.card_container {
+  width: 95%;
+  margin: auto;
+  display: flex;
+}
+
+/* Taille de carte responsive : Flex + un min-width  */
+.card_container_left {
+  width: 33%;
+  height: 100%;
+  border: 2 px solid red;
+  margin-top: 7em;
+}
+
+.card_container_middle {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card_container_right {
+  width: 33%;
+  height: 100%;
+  margin-top: 7em;
+}
+
+.card {
+  padding: 2em;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0.5em;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.card h3 {
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+
+.card p {
+  padding-bottom: 1.5em;
+  color: rgb(158, 158, 158);
+}
+
+.img_box {
+  width: 20%;
+  margin-left: 70%;
+}
+
+.card img {
+  width: 100%;
+}
+
+#card_left {
+  border-top: 3px solid hsl(180, 62%, 55%);
+}
+#card_center_top {
+  border-top: 3px solid hsl(0, 78%, 62%);
+  margin-bottom: 2em;
+}
+#card_center_bottom {
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+#card_right {
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+.attribution {
+  background: rgb(0, 251, 252);
+  background: radial-gradient(
+    circle,
+    rgba(0, 251, 252, 1) 46%,
+    rgba(5, 231, 236, 1) 100%
+  );
+  padding: 1.5em;
+  border-top: double 5px #0000006e;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: rgb(161, 137, 106);
+}
